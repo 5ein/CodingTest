@@ -2,7 +2,7 @@ package Doit;
 
 import java.util.Scanner;
 
-public class 연습1_3 {
+public class 연습1_03 {
 	static int min4(int a, int b, int c, int d) {
 		int min = a;
 		if(b < min) min = b;

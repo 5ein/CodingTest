@@ -2,7 +2,7 @@ package Doit;
 
 import java.util.Scanner;
 
-public class 연습1_4 {
+public class 연습1_04 {
 	static int med3(int a, int b, int c) {
 		if(a >= b) {
 			if(b >= c) return b;
