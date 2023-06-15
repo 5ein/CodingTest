@@ -2,13 +2,17 @@ package baekjoon;
 
 import java.util.Scanner;
 
-public class no_18108 {
+//구구단
+public class no_2739 {
+
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
+		int N = sc.nextInt();
 		
-		int A = sc.nextInt();
-		
-		System.out.println(A - 543);
+		for (int i = 1; i <= 9; i++) {
+			System.out.println(N + " * " + i +" = " + N*i);
+		}
 		sc.close();
 	}
+
 }

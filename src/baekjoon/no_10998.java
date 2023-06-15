@@ -11,6 +11,7 @@ public class no_10998 {
 		int B = sc.nextInt();
 		
 		System.out.println(A * B);
+		sc.close();
 	}
 
 }

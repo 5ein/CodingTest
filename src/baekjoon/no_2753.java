@@ -12,6 +12,8 @@ public class no_2753 {
 		if((E % 4 == 0) &&(E % 100 != 0) || (E % 400 == 0)) System.out.println(1);
 		else System.out.println(0);
 		
+		sc.close();
+		
 	}
 
 }

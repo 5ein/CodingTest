@@ -20,6 +20,8 @@ public class no_2588 {
 		System.out.println(A * E);
 		System.out.println(A * F);
 		System.out.println(A * B);
+		
+		sc.close();
 	}
 
 }

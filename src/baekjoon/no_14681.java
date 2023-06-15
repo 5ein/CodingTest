@@ -18,6 +18,7 @@ public class no_14681 {
 			else if(y < 0) System.out.println(3);
 		}else System.out.println(0);
 		
+		sc.close();
 	}
 
 }

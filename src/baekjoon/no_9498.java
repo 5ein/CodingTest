@@ -13,6 +13,8 @@ public class no_9498 {
 		else if(E >= 70) System.out.println("C");
 		else if(E >= 60) System.out.println("D");
 		else System.out.println("F");
+		
+		sc.close();
 	}
 
 }

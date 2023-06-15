@@ -24,6 +24,8 @@ public class no_2525 {
 		
 		System.out.println(H + " " + M);
 		
+		sc.close();
+		
 	}
 
 }

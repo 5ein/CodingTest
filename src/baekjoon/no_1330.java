@@ -17,6 +17,7 @@ public class no_1330 {
 		}else if(A < B) {
 			System.out.println("<");
 		}
+		sc.close();
 		
 	}
 

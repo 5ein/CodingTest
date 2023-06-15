@@ -22,7 +22,7 @@ public class no_2884 {
 		}
 		
 		System.out.println(H + " " + M);
-		
+		sc.close();
 	}
 
 }
