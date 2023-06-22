@@ -1,4 +1,4 @@
-package baekjoon;
+package Baekjoon;
 
 public class no_2557 {
 
