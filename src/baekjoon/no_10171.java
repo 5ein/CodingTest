@@ -1,4 +1,4 @@
-package Baekjoon;
+package baekjoon;
 //고양이
 public class no_10171 {
 
