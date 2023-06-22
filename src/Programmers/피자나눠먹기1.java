@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 피자나눠먹기1 {
 

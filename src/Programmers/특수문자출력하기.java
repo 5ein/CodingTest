@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 특수문자출력하기 {
 

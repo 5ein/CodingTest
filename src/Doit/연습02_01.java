@@ -1,4 +1,4 @@
-package Doit;
+package doit;
 
 import java.util.Random;
 

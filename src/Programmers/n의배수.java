@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class n의배수 {
 

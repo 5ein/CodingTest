@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 중복된숫자개수 {
 

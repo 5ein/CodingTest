@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 자릿수더하기 {
 

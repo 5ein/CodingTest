@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 원소들의곱과합 {
 

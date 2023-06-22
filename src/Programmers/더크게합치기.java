@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 더크게합치기 {
 

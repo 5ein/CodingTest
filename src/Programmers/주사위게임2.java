@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 주사위게임2 {
 

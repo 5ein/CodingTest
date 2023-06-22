@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 등차수열의특정한항만더하기 {
 

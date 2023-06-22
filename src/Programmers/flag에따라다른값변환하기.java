@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class flag에따라다른값변환하기 {
 

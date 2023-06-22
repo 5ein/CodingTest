@@ -1,4 +1,4 @@
-package Doit;
+package doit;
 
 public class 연습01_11 {
 	

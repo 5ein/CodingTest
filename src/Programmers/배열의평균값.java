@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 배열의평균값 {
 

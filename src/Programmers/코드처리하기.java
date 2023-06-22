@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 코드처리하기 {
 

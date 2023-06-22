@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 머쓱이보다키큰사람 {
 

@@ -1,4 +1,4 @@
-package Programmers;
+package programmers;
 
 public class 문자열곱하기 {
 
