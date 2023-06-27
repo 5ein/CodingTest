@@ -10,8 +10,8 @@ public class no_25083 {
 				   "   `~\\/\n" + 			// \\, \n 이 제어문자다.
 				   "      |\n" + 			// \n 이 제어문자다.
 				   "      |";
-		System.out.print(s);
 		
+		System.out.print(s);
 	}
 
 }
