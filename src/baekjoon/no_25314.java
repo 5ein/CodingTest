@@ -2,8 +2,8 @@ package baekjoon;
 
 import java.util.Scanner;
 
+public class no_25314 {
 //코딩은 체육과목 입니다
-class no_25314 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
