@@ -2,7 +2,7 @@ package doit;
 
 //int형 고정 길이 스택
 
-public class 연습04_IntStack {
+public class 연습04_01_IntStack {
 	private int[] stk;			// 스택용 배열 
 	private int capacity;		// 스택 용량
 	private int ptr;				// 스택 포인터
@@ -18,7 +18,7 @@ public class 연습04_IntStack {
 	}
 
 	//--- 생성자 ---//
-	public 연습04_IntStack(int maxlen) {
+	public 연습04_01_IntStack(int maxlen) {
 		ptr = 0;
 		capacity = maxlen;
 		try {

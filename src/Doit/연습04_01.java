@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class 연습04_01 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		연습04_IntStack s = new 연습04_IntStack(64); // 최대 64 개를 푸시할 수 있는 스택
+		연습04_01_IntStack s = new 연습04_01_IntStack(64); // 최대 64 개를 푸시할 수 있는 스택
 
 		while (true) {
 			System.out.println(); // 메뉴 구분을 위한 빈 행 추가
@@ -25,7 +25,7 @@ public class 연습04_01 {
 				x = sc.nextInt();
 				try {
 					s.push(x);
-				} catch (연습04_IntStack.OverflowIntStackException e) {
+				} catch (연습04_01_IntStack.OverflowIntStackException e) {
 					System.out.println("스택이 가득 찼습니다.");
 				}
 				break;
@@ -34,7 +34,7 @@ public class 연습04_01 {
 				try {
 					x = s.pop();
 					System.out.println("팝한 데이터는 " + x + "입니다.");
-				} catch (연습04_IntStack.EmptyIntStackException e) {
+				} catch (연습04_01_IntStack.EmptyIntStackException e) {
 					System.out.println("스택이 비어있습니다.");
 				}
 				break;
@@ -43,7 +43,7 @@ public class 연습04_01 {
 				try {
 					x = s.peek();
 					System.out.println("피크한 데이터는 " + x + "입니다.");
-				} catch (연습04_IntStack.EmptyIntStackException e) {
+				} catch (연습04_01_IntStack.EmptyIntStackException e) {
 					System.out.println("스택이 비어있습니다.");
 				}
 				break;
