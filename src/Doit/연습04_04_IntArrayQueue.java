@@ -2,11 +2,11 @@ package doit;
 
 import java.util.Scanner;
 
-public class 연습04_04IntArrayQueue {
+public class 연습04_04_IntArrayQueue {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		연습04_04IntArrayQueue s = new 연습04_04IntArrayQueue(64);		// 최대 64개를 푸시할 수 있는 큐
+		연습04_04_IntArrayQueue s = new 연습04_04_IntArrayQueue(64);		// 최대 64개를 푸시할 수 있는 큐
 
 		while (true) {
 			System.out.println("현재 데이터 개수 : " + s.size() + " / "
@@ -24,7 +24,7 @@ public class 연습04_04IntArrayQueue {
 				x = sc.nextInt();
 				try {
 					s.enque(x);
-				 } catch (연습04_04IntArrayQueue.OverflowIntArrayQueueException e) {
+				 } catch (연습04_04_IntArrayQueue.OverflowIntArrayQueueException e) {
 					System.out.println("큐가 가득 찼습니다.");
 				}
 				break;
@@ -33,7 +33,7 @@ public class 연습04_04IntArrayQueue {
 				try {
 					 x = s.deque();
 					System.out.println(" 디큐한 데이터는 " + x + "입니다.");
-				 } catch (연습04_04IntArrayQueue.EmptyIntArrayQueueException e) {
+				 } catch (연습04_04_IntArrayQueue.EmptyIntArrayQueueException e) {
 					System.out.println("큐가 비어 있습니다.");
 				}
 				break;
@@ -42,7 +42,7 @@ public class 연습04_04IntArrayQueue {
 				try {
 					 x = s.peek();
 					System.out.println("피크한 데이터는 " + x + "입니다.");
-				 } catch (연습04_04IntArrayQueue.EmptyIntArrayQueueException e) {
+				 } catch (연습04_04_IntArrayQueue.EmptyIntArrayQueueException e) {
 					System.out.println("큐가 비어 있습니다.");
 				}
 				break;
@@ -72,7 +72,7 @@ public class 연습04_04IntArrayQueue {
 
 
 	//--- 생성자 ---//
-	public 연습04_04IntArrayQueue(int maxlen) {
+	public 연습04_04_IntArrayQueue(int maxlen) {
 		num = 0;
 		capacity = maxlen;
 		try {
