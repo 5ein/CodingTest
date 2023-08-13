@@ -8,6 +8,7 @@ public class 큰팩토리얼 {
 	public static void main(String[] args) throws Exception {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		int n = Integer.parseInt(br.readLine());
+		br.close();
 		
 		BigInteger result = factorial(n);
 		BigInteger m = BigInteger.valueOf(1000000007);
@@ -19,8 +20,10 @@ public class 큰팩토리얼 {
 	public static BigInteger factorial (int n) {
 		BigInteger fac = BigInteger.ONE;
 		
-		for (int i = 1; i <= n; i++)
-			fac = fac.multiply(BigInteger.valueOf(i));
+        for (int i = 1; i <= n; i++) {
+            fac = fac.multiply(BigInteger.valueOf(i));
+            fac = fac.mod(BigInteger.valueOf(1000000007)); // 중간 결과를 나머지로 나누기
+        }
 
 	    return fac;
 	}
