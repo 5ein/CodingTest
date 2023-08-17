@@ -1,7 +1,5 @@
 package programmers고득점Kit;
 
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.HashSet;
 
 public class 해시_전화번호목록 {

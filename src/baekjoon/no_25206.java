@@ -15,6 +15,8 @@ public class no_25206 {
 			double a = sc.nextDouble(); //학점
 			String b = sc.next(); //평점
 			
+			System.out.println(title);
+			
 			if(b.equals("A+")) {
 				aa += a * 4.5;
 				point += a;
@@ -46,7 +48,6 @@ public class no_25206 {
 		}
 		
 		System.out.printf("%.6f", aa / point);
-		
 		sc.close();
 	}
 
