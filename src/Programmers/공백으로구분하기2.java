@@ -2,7 +2,6 @@ package programmers;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.StringTokenizer;
 
 public class 공백으로구분하기2 {
 
