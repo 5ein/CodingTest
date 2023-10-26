@@ -1,8 +1,5 @@
 package programmers;
 
-import java.io.Console;
-import java.util.Arrays;
-
 public class 홀수vs짝수 {
 
 	public static void main(String[] args) {

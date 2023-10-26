@@ -1,6 +1,5 @@
 package programmers;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class 공백으로구분하기1 {

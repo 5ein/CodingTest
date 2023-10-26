@@ -1,8 +1,6 @@
 package programmers;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
 public class x사이의개수 {
 
