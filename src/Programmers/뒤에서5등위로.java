@@ -1,6 +1,5 @@
 package programmers;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class 뒤에서5등위로 {
