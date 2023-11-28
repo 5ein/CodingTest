@@ -21,5 +21,9 @@ public class l로만들기 {
         
         return answer;
     }
-
+    
+    //다른사람 풀이
+//    public static String solution(String myString) {
+//        return myString.replaceAll("[^l-z]", "l");
+//    }
 }
