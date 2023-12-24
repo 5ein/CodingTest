@@ -1,4 +1,4 @@
-package programmers;import java.util.Arrays;
+package programmers;
 
 public class 문자열계산하기 {
 

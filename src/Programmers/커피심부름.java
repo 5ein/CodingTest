@@ -1,7 +1,5 @@
 package programmers;
 
-import java.util.HashMap;
-
 public class 커피심부름 {
 
 	public static void main(String[] args) {
