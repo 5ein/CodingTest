@@ -6,16 +6,16 @@ public class 핸드폰번호가리기 {
 		String phone_number = "01033334444";
 		System.out.println(solution(phone_number));
 	}
-	
-    public static String solution(String phone_number) {
-        String answer = "";
-        int idx = phone_number.length() - 4;
-        for (int i = 0; i < idx; i++) {
+
+	public static String solution(String phone_number) {
+		String answer = "";
+		int idx = phone_number.length() - 4;
+		for (int i = 0; i < idx; i++) {
 			answer += "*";
 		}
-        answer += phone_number.substring(idx);
-        return answer;
-    }
+		answer += phone_number.substring(idx);
+		return answer;
+	}
 //    public static String solution(String phone_number) {
 //        char[] ch = phone_number.toCharArray();
 //        for(int i = 0; i < ch.length - 4; i ++){
