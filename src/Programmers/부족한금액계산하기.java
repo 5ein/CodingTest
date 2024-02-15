@@ -30,6 +30,16 @@ public class 부족한금액계산하기 {
     	return answer;
     }
     
+//    public static long solution(int price, int money, int count) {
+//    	long answer = 0;
+//    	for (int i = 1; i <= count; i++) {
+//    		answer += price * i;
+//    	}
+//    	if(answer <= money) answer = 0;
+//    	else answer -= money;
+//    	return answer;
+//    }
+    
     //다른사람의 풀이
 //    public static long solution(int price, int money, int count) {
 //        return Math.max(price * (count * (count + 1) / 2) - money, 0);
