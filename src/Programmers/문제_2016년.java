@@ -30,7 +30,7 @@ public class 문제_2016년 {
 //		return answer;
 //	}
 //
-//	public String solution(int a, int b) {
+//	public static String solution(int a, int b) {
 //		return LocalDate.of(2016, a, b).getDayOfWeek().toString().substring(0, 3);
 //	}
     
